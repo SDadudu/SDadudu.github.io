@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>光彩集团</title>
+      <style>
+          body, html {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+          }
+          .header {
+              position: relative;
+              height: 100vh; /* 视口高度 */
+              background-image: url('your-image-url.jpg'); /* 替换为您的图片URL */
+              background-size: cover; /* 覆盖整个容器 */
+              background-position: center; /* 图片居中显示 */
+          }
+          .header h1 {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: white;
+              font-size: 4em; /* 增大字体大小 */
+              letter-spacing: 2px; /* 增大字符间距 */
+              text-align: center;
+              width: 100%;
+          }
+          .nav {
+              position: fixed; /* 页眉固定在顶部 */
+              top: 0;
+              width: 100%;
+              background-color: #007bff; /* 蓝色 */
+              color: #fff;
+              padding: 10px 0;
+              text-align: center;
+              z-index: 1000; /* 确保页眉在其他内容之上 */
+          }
+          .nav a {
+              color: white;
+              text-decoration: none;
+              padding: 0 15px;
+          }
+          .nav a:hover {
+              text-decoration: underline;
+          }
+          .content {
+              padding: 20px;
+              text-align: center;
+          }
+      </style>
+</head>
+<body>
+      <div class="nav">
+          <a href="index.html">首页</a>
+          <a href="oj.html">OJ</a>
+          <a href="halo.html">去上课</a>
+          <a href="lx.html">练习</a>
+      </div>
+      <div class="header">
+          <h1>欢迎来到光彩集团</h1>
+      </div>
+      <div class="content">
+          <h2>网站完善中...</h2>
+          <p>光彩集团是一家致力于提供高质量服务的综合性企业集团。我们专注于创新和卓越，旨在为客户提供最佳的解决方案。</p>
+          <p>光环编程上课方式：点击上方“去上课”即可</p>
+          <!-- 更多内容 -->
+      </div>
+</body>
+</html>
